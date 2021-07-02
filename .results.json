@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-07-02T00:40:27.843Z",
+    "end": "2021-07-02T00:40:27.936Z",
+    "duration": 93
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event\"",
+      "fullTitle": "<ChromeBoisDomain /> \"before each\" hook for \"invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event\"",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'x' of null\n    at ChromeBoisDomain.render (src/ChromeBoisDomain.js:43:14)\n    at ReactShallowRenderer._mountClassComponent (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:195:37)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:143:14)\n    at /mnt/c/Users/Pwako/dev/flatiron/labs/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:24:12)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Cannot read property 'x' of null"
+      }
+    }
+  ],
+  "passes": []
+}
